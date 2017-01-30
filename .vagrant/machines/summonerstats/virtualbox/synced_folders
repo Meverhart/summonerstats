@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/summonerstats":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/summonerstats","hostpath":"/home/meverhart/Code/summonerstats","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/meverhart/Code/summonerstats","disabled":false,"__vagrantfile":true}}}
