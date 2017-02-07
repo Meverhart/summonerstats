@@ -70,6 +70,8 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
             'summonerid' => LeagueApi::summoner()->info($data['summonername'])->id,
+            'profileIconId' => LeagueApi::summoner()->info($data['summonername'])->profileIconId,
+            'summonerLevel' => LeagueApi::summoner()->info($data['summonername'])->summonerLevel,
         ]);
     }
 
